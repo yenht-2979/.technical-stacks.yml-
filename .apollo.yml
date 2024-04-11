@@ -1,0 +1,25 @@
+config:
+  ignore:
+    files:
+      - index.html
+    commits:
+      - <commit_hash>
+techstack:
+  application:
+    - laravel:9.52
+    - php:8.0.2
+    - typescript
+  database:
+    - postgresql
+    - linode
+  devops:
+    - kubernetes
+    - fluxcd
+    - docker
+    - git
+    - vscode
+  business_tools:
+    - slack
+    - figma
+  utilities:
+    - elasticsearch:8.11.1
